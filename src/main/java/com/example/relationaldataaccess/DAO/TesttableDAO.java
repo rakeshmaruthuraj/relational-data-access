@@ -44,5 +44,7 @@ public class TesttableDAO {
         jdbcTemplate.update(sql);
     }
 
-    public void getOneRow(){}
+    public void getOneRow(){
+
+    }
 }
