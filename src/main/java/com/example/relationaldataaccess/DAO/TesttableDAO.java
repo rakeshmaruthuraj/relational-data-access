@@ -20,7 +20,7 @@ public class TesttableDAO {
     private JdbcTemplate jdbcTemplate;
 
     public List<Testtable> list(){
-        String sql = "SELECT * FROM TESTTABLE";
+        String sql =  "SELECT * FROM TESTTABLE";
         List<Testtable> listTest = jdbcTemplate.query(sql, BeanPropertyRowMapper.newInstance(Testtable.class));
         return listTest;
     }
