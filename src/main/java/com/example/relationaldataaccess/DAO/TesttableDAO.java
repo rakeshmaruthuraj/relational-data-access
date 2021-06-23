@@ -45,5 +45,4 @@ public class TesttableDAO {
     }
 
     public void getOneRow(){}
-
 }
